@@ -1,5 +1,9 @@
 export default function AboutPage(){
     return (
-        <div>About Page Text</div>
+        <div><h2>About Me</h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nibh sed pulvinar proin. Eget mauris pharetra et ultrices neque ornare. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Faucibus a pellentesque sit amet porttitor. Diam phasellus vestibulum lorem sed risus ultricies. Cras fermentum odio eu feugiat. Pulvinar neque laoreet suspendisse interdum consectetur. Vulputate odio ut enim blandit volutpat. Sed elementum tempus egestas sed sed risus pretium. Mattis aliquam faucibus purus in massa tempor. Consectetur libero id faucibus nisl tincidunt eget nullam non. Congue eu consequat ac felis donec et odio. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Nunc non blandit massa enim nec dui nunc. Sit amet volutpat consequat mauris. Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus. Placerat duis ultricies lacus sed.
+
+Euismod lacinia at quis risus sed vulputate odio ut. Commodo sed egestas egestas fringilla. Nunc faucibus a pellentesque sit amet porttitor eget dolor. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor. Viverra aliquet eget sit amet tellus cras. Donec enim diam vulputate ut pharetra sit amet. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Quam id leo in vitae turpis massa sed elementum tempus. Leo duis ut diam quam. Viverra accumsan in nisl nisi. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Nisl suscipit adipiscing bibendum est. Aliquam sem fringilla ut morbi tincidunt augue interdum. Senectus et netus et malesuada fames ac turpis. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Lacus vel facilisis volutpat est velit egestas.
+        </div>
     )
 }
