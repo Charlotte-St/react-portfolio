@@ -3,6 +3,9 @@ import Navbar from './UI/Navbar';
 
 export default function Nav() {
     return (
+        <nav className="navbar navbar-expand-lg bg-body-teriary">
+        <div className="container-fluid">
+            <h1>Charlotte Stowe</h1>
         <Navbar
             links={[
                 <Link key={1} className="nav-link active" to="/">
@@ -19,5 +22,7 @@ export default function Nav() {
                 </Link>
             ]}
         ></Navbar>
+        </div>
+        </nav>
     )
 }
