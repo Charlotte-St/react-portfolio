@@ -8,7 +8,7 @@ export default function ResumePage(){
                 <h3>My Skills:</h3>
                 <Skills />
                 <br />
-                <Link to="/src/assets/resume.pdf" target="_blank" download>Download Resume</Link>
+                <Link to="/src/assets/Basic Resume.pdf" target="_blank" download>Download Resume</Link>
             </main>
         </div>
     )
