@@ -5,7 +5,7 @@ export default function PortfolioPage(){
         <div>
             <main>
                 <div>
-                    This is a sample of the projects I have created. 
+                    This is a sample of the projects I have worked on. 
                     <br />
                     <br />
                 </div>

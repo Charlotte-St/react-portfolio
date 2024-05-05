@@ -24,6 +24,7 @@ export default function ContactForm(){
     return (
         <div className='container'>
             <form className='form'>
+                <label>Name: </label>
                 <input 
                     value = {name}
                     name = 'nameVal'
@@ -33,6 +34,7 @@ export default function ContactForm(){
                     size='30'
                     onChange={nameInputCheck}
                 />
+                <label>Email Address:</label>
                 <input 
                     value = {emailAddress}
                     name = 'emailVal'
@@ -41,6 +43,7 @@ export default function ContactForm(){
                     className='form-control'
                     onChange={emailInputCheck}
                 />
+                <label>Message</label>
                 <textarea
                     value = {message}
                     name = 'messageVal'

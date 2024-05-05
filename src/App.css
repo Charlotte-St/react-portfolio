@@ -37,7 +37,6 @@ footer {
 main {
   margin-top: 100px;
   margin-bottom: 100px;
-  background-color: aquamarine;
 }
 
 .form input, textarea, button {
@@ -72,6 +71,12 @@ body{
   color: #0C1F2A
 }
 
-.nav-link.active, .btn-primary {
-  background-color: #284b63
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link, .btn-primary {
+  background-color: #284b63;
+  border: 0px;
+}
+
+h1 {
+  color: #284B63
 }
