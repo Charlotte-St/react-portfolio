@@ -35,7 +35,7 @@ export default function ContactForm(){
     const emptyField = (e) => {
         const {value} = e.target;
         if (value.length === 0){
-            alert('Please enter a value.')
+            alert('This field is required. Please enter a value.')
         } 
     }
 
