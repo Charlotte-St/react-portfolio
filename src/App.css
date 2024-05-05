@@ -13,16 +13,13 @@
   top: 0;
   left: 0;
   width: 100% ;
-  padding-bottom: 10px;
   padding-right: 5px;
+  margin-bottom: 50px;
 }
 
-.footer {
-  position: relative;
-  margin-top: -150px;
-  clear: both;
-  padding-top: 20px;
-  height: 50px
+footer {
+  position: absolute;
+  align-content: center;
 }
 
 .nav-link {
@@ -38,8 +35,9 @@
 }
 
 main {
-  padding-top: 5em;
-  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: aquamarine;
 }
 
 .form input, textarea, button {
@@ -53,12 +51,13 @@ main {
 }
 
 .project-card {
-  width 30%;
+  width: 40%;
+  max-width: 500px;
   margin: 20px;
 }
 
 .container-fluid {
-  max-width: 1200px;
+  max-width: 100%;
 }
 
 .card-deck {
@@ -68,4 +67,11 @@ main {
 
 body{
   padding-bottom: 70px;
+  background-color: #eef0eb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #0C1F2A
+}
+
+.nav-link.active, .btn-primary {
+  background-color: #284b63
 }

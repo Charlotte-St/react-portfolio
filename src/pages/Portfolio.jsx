@@ -4,6 +4,11 @@ export default function PortfolioPage(){
     return (
         <div>
             <main>
+                <div>
+                    This is a sample of the projects I have created. 
+                    <br />
+                    <br />
+                </div>
             <div className="container-fluid">
                 <div className="row">
                     <div className="card-deck">

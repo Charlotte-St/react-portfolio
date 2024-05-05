@@ -1,6 +1,6 @@
 export default function Footer(){
     return(
-        <nav className="navbar footer">
+        <footer className="navbar footer">
             <div className="container-fluid">
                 <div className="d-flex justify-content-center">
                     <div className="p-2">
@@ -20,6 +20,6 @@ export default function Footer(){
                     </div>
                 </div>
             </div>
-        </nav>
+        </footer>
     )
 }

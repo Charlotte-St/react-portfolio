@@ -8,9 +8,7 @@ function App() {
   return (
     <>
           <Nav />
-          <main className='col-8'>
             <Outlet />
-          </main>
           <Footer />
     </>
   )
