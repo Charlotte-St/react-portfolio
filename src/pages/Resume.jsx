@@ -2,7 +2,8 @@ import Skills from "../components/UI/Skills";
 
 export default function ResumePage(){
     return (
-        <div>Resume page text
+        <div>
+        <h3>My Skills:</h3>
             <Skills />
         </div>
     )

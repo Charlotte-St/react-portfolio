@@ -7,6 +7,18 @@ export default function ContactForm(){
 
     const nameInputCheck = (e) => {
         const {input, value } = e.target;
+
+        return input === setName(value)
+    }
+
+    const emailInputCheck = (e) => {
+        const {input, value } = e.target;
+        return input === setEmail(value)
+    }
+
+    const messageCheck = (e) => {
+        const {input, value} = e.target;
+        return input === setMessage(value)
     }
 
     return (
@@ -19,6 +31,7 @@ export default function ContactForm(){
                     placeholder='Name'
                     className='form-control'
                     size='30'
+                    onChange={nameInputCheck}
                 />
                 <input 
                     value = {emailAddress}
@@ -26,6 +39,7 @@ export default function ContactForm(){
                     type = 'email'
                     placeholder = 'Email Address'
                     className='form-control'
+                    onChange={emailInputCheck}
                 />
                 <textarea
                     value = {message}
@@ -34,6 +48,8 @@ export default function ContactForm(){
                     placeholder = 'Message'
                     className='form-control'
                     rows='5'
+                    cols='30'
+                    onChange={messageCheck}
                 />
                 <button type ='submit' className='btn btn-primary'>
                     Send Message
