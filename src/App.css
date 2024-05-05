@@ -53,3 +53,7 @@ main {
 .form input {
   width: 200px;
 }
+
+.project-card {
+  width: 30%;
+}
