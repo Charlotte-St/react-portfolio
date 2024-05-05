@@ -1,11 +1,11 @@
 export default function Project(){
     const projects = [
         {key: 'a', title: 'Book Lister', image: '/assets/book-lister.gif', github:'https://github.com/Charlotte-St/book-lister', live: 'https://project-2-2nvv.onrender.com/'},
-        {key: 'b', title: 'Tech Blog', image: './assets/tech-blog.png', github:'https://github.com/Charlotte-St/tech-blog', live: 'https://tech-blog-w6cb.onrender.com/'},
-        {key: 'c', title: 'Note Taker', image: './public/assets/note-taker-app.png', github:'https://github.com/Charlotte-St/note-taker', live: 'https://note-taker-g07d.onrender.com/'},
-        {key: 'd', title: 'Weather Dashboard', image: './public/assets/weather-dashboard.png', github:'https://github.com/Charlotte-St/weather-dashboard', live: 'https://charlotte-st.github.io/weather-dashboard/'},
-        {key: 'e', title: 'Workday Scheduler', image: './public/assets/Work Day Scheduler Screenshot.png', github:'https://github.com/Charlotte-St/work-day-scheduler', live: 'https://charlotte-st.github.io/work-day-scheduler/'},
-        {key: 'f', title: 'Timed Coding Quiz', image: './public/assets/timed-coding-quiz.png', github:'https://github.com/Charlotte-St/timed-coding-quiz', live: 'https://charlotte-st.github.io/timed-coding-quiz/'}
+        {key: 'b', title: 'Tech Blog', image: '/assets/tech-blog.png', github:'https://github.com/Charlotte-St/tech-blog', live: 'https://tech-blog-w6cb.onrender.com/'},
+        {key: 'c', title: 'Note Taker', image: '/assets/note-taker-app.png', github:'https://github.com/Charlotte-St/note-taker', live: 'https://note-taker-g07d.onrender.com/'},
+        {key: 'd', title: 'Weather Dashboard', image: '/assets/weather-dashboard.png', github:'https://github.com/Charlotte-St/weather-dashboard', live: 'https://charlotte-st.github.io/weather-dashboard/'},
+        {key: 'e', title: 'Workday Scheduler', image: '/assets/Work Day Scheduler Screenshot.png', github:'https://github.com/Charlotte-St/work-day-scheduler', live: 'https://charlotte-st.github.io/work-day-scheduler/'},
+        {key: 'f', title: 'Timed Coding Quiz', image: '/assets/timed-coding-quiz.png', github:'https://github.com/Charlotte-St/timed-coding-quiz', live: 'https://charlotte-st.github.io/timed-coding-quiz/'}
     ];
 
     return (
