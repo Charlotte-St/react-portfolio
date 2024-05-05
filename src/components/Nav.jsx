@@ -5,9 +5,13 @@ export default function Nav() {
     const currentPage = useLocation().pathname;
     return (
         <>
-        <nav className="navbar navbar-expand-lg bg-body-teriary fixed-top">
+        <nav className="navbar navbar-expand-lg bg-body-teriary top-navbar">
             <div className="container-fluid">
+                <div className='d-flex flex-wrap align-content-stretch'>
+                <div className='p-2'>
                 <h1>Charlotte Stowe</h1>
+                </div>
+                <div className='p-2'>
                 <Navbar
                 links={[
                     <Link key={1} className={ currentPage === '/'? "nav-link active":"nav-link"} to="/">
@@ -24,6 +28,8 @@ export default function Nav() {
                     </Link>
                  ]}
              ></Navbar>
+             </div>
+             </div>
             </div>
         </nav>
         </>
