@@ -47,7 +47,7 @@ body{
 }
 
 .project-card {
-  width: 40%;
+  /*width: 40%;*/
   max-width: 500px;
   margin: 20px;
 }
@@ -55,6 +55,7 @@ body{
 .card-deck {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card-footer {
