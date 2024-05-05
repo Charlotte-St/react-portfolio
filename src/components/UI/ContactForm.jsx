@@ -43,7 +43,7 @@ export default function ContactForm(){
                     className='form-control'
                     onChange={emailInputCheck}
                 />
-                <label>Message</label>
+                <label>Message:</label>
                 <textarea
                     value = {message}
                     name = 'messageVal'

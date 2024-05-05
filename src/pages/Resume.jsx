@@ -1,4 +1,5 @@
 import Skills from "../components/UI/Skills";
+import { Link } from 'react-router-dom';
 
 export default function ResumePage(){
     return (
@@ -6,6 +7,8 @@ export default function ResumePage(){
             <main>
                 <h3>My Skills:</h3>
                 <Skills />
+                <br />
+                <Link to="/src/assets/resume.pdf" target="_blank" download>Download Resume</Link>
             </main>
         </div>
     )

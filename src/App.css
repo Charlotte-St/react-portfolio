@@ -4,9 +4,9 @@
   padding: 2rem;
 }
 
-/*.card {
-  padding: 2em;
-}*/
+.card {
+  border: 0px;
+}
 
 .top-navbar {
   position: absolute;
@@ -20,10 +20,6 @@
 footer {
   position: absolute;
   align-content: center;
-}
-
-.nav-link {
-  color: red
 }
 
 .profile-image img {
@@ -77,6 +73,28 @@ body{
   border: 0px;
 }
 
+.btn-primary:hover {
+  background: #386787
+}
+
+a:link, a:visited, a:active {
+  color: #284B63
+}
+
+a:hover {
+  color: #386787
+
+}
+
+
 h1 {
   color: #284B63
+}
+
+.card-footer {
+  background-color: #B4B8AB;
+}
+
+.card-body {
+  background-color: #F4F9E9;
 }
