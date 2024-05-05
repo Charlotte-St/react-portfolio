@@ -1,11 +1,11 @@
 export default function Project(){
     const projects = [
-        {key: null, title: '', image: '', github:'', live: ''},
-        {key: null, title: '', image: '', github:'', live: ''},
-        {key: null, title: '', image: '', github:'', live: ''},
-        {key: null, title: '', image: '', github:'', live: ''},
-        {key: null, title: '', image: '', github:'', live: ''},
-        {key: null, title: '', image: '', github:'', live: ''}
+        {key: 'a', title: 'Book Lister', image: './src/assets/book-lister.gif', github:'https://github.com/Charlotte-St/book-lister', live: 'https://project-2-2nvv.onrender.com/'},
+        {key: 'b', title: 'Tech Blog', image: '', github:'', live: ''},
+        {key: 'c', title: 'Note Taker', image: './src/assets/note-taker-app.png', github:'https://github.com/Charlotte-St/note-taker', live: 'https://note-taker-g07d.onrender.com/'},
+        {key: 'd', title: 'Weather Dashboard', image: '', github:'', live: ''},
+        {key: 'e', title: 'Workday Scheduler', image: '', github:'', live: ''},
+        {key: 'f', title: 'Timed Coding Quiz', image: '', github:'', live: ''}
     ];
 
     return (

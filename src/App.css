@@ -4,9 +4,9 @@
   padding: 2rem;
 }
 
-.card {
+/*.card {
   padding: 2em;
-}
+}*/
 
 .top-navbar {
   position: absolute;
@@ -18,13 +18,11 @@
 }
 
 .footer {
-  position: absolute; 
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  padding-top: 5px;
-  align-content: center;
+  position: relative;
+  margin-top: -150px;
+  clear: both;
+  padding-top: 20px;
+  height: 50px
 }
 
 .nav-link {
@@ -41,7 +39,7 @@
 
 main {
   padding-top: 5em;
-  padding-bottom: 5em;
+  padding-bottom: 100px;
 }
 
 .form input, textarea, button {
@@ -55,5 +53,19 @@ main {
 }
 
 .project-card {
-  width: 30%;
+  width 30%;
+  margin: 20px;
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body{
+  padding-bottom: 70px;
 }
