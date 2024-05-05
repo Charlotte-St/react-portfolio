@@ -28,9 +28,15 @@ export default function ContactForm(){
         if (regex.test(value)){
             return setEmail(value)
         } else {
-            console.log(value);
-            console.log('Error')
+            alert('Please submit a valid email address.')
         }
+    }
+
+    const emptyField = (e) => {
+        const {value} = e.target;
+        if (value.length === 0){
+            alert('Please enter a value.')
+        } 
     }
 
     return (
@@ -45,6 +51,7 @@ export default function ContactForm(){
                     className='form-control'
                     size='30'
                     onChange={nameInputCheck}
+                    onBlur={emptyField}
                 />
                 <label>Email Address:</label>
                 <input 
@@ -66,6 +73,7 @@ export default function ContactForm(){
                     rows='5'
                     cols='30'
                     onChange={messageCheck}
+                    onBlur={emptyField}
                 />
                 <button type ='submit' className='btn btn-primary'>
                     Send Message
