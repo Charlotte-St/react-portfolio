@@ -21,6 +21,17 @@ export default function ContactForm(){
         return input === setMessage(value)
     }
 
+    const handleOnChange = ( email ) => {
+        const {input, value} = email.target;
+        let regEx = new RegExp('/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/');
+
+        if (regEx.test(input)){
+            return setEmail(value)
+        } else {
+            alert('Please enter a valid email address.')
+        }
+    }
+
     return (
         <div className='container'>
             <form className='form'>
@@ -41,7 +52,7 @@ export default function ContactForm(){
                     type = 'email'
                     placeholder = 'Email Address'
                     className='form-control'
-                    onChange={emailInputCheck}
+                    onChange={handleOnChange}
                 />
                 <label>Message:</label>
                 <textarea
