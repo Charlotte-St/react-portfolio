@@ -6,7 +6,9 @@ export default function Skills(){
         'SQL',
         'PostgreSQL',
         'MongoDB',
-        'React'
+        'React',
+        'Node.js',
+        'Express'
     ];
 
     const listItems = skills.map(skill => <li>{skill}</li>);

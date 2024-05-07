@@ -33,7 +33,7 @@ main {
 
 body{
   padding-bottom: 70px;
-  background-color: #eef0eb;
+  background-color: #efefef;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #0C1F2A
 }
@@ -59,11 +59,11 @@ body{
 }
 
 .card-footer {
-  background-color: #B4B8AB;
+  background-color: #EBF5FC;
 }
 
 .card-body {
-  background-color: #F4F9E9;
+  background-color: #F7F7F7;
 }
 
 
